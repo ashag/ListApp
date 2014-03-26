@@ -19,6 +19,7 @@
 		8D5A550018E2032F00D0F3FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5A54E818E2032F00D0F3FF /* UIKit.framework */; };
 		8D5A550818E2032F00D0F3FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5A550618E2032F00D0F3FF /* InfoPlist.strings */; };
 		8D5A550A18E2032F00D0F3FF /* listerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A550918E2032F00D0F3FF /* listerAppTests.m */; };
+		8D5A551418E226F900D0F3FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5A551318E226F900D0F3FF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		8D5A550518E2032F00D0F3FF /* listerAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "listerAppTests-Info.plist"; sourceTree = "<group>"; };
 		8D5A550718E2032F00D0F3FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D5A550918E2032F00D0F3FF /* listerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = listerAppTests.m; sourceTree = "<group>"; };
+		8D5A551318E226F900D0F3FF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				8D5A54EC18E2032F00D0F3FF /* listerApp-Info.plist */,
 				8D5A54ED18E2032F00D0F3FF /* InfoPlist.strings */,
 				8D5A54F018E2032F00D0F3FF /* main.m */,
+				8D5A551318E226F900D0F3FF /* Main.storyboard */,
 				8D5A54F218E2032F00D0F3FF /* listerApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5A551418E226F900D0F3FF /* Main.storyboard in Resources */,
 				8D5A54EF18E2032F00D0F3FF /* InfoPlist.strings in Resources */,
 				8D5A54F718E2032F00D0F3FF /* Images.xcassets in Resources */,
 			);
