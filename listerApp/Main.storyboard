@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller - My To-Do List-->
+        <!--To Do List Table View Controller - My To-Do List-->
         <scene sceneID="NLb-kO-Guq">
             <objects>
-                <tableViewController id="2dT-wx-VLC" sceneMemberID="viewController">
+                <tableViewController id="2dT-wx-VLC" customClass="LSTToDoListTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="7WB-HS-XUY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -251,10 +251,10 @@
             </objects>
             <point key="canvasLocation" x="248" y="-366"/>
         </scene>
-        <!--View Controller - Add To-Do Item-->
+        <!--Add To Do Item View Controller - Add To-Do Item-->
         <scene sceneID="WB7-QK-zI1">
             <objects>
-                <viewController id="SCS-Mc-ZiO" sceneMemberID="viewController">
+                <viewController id="SCS-Mc-ZiO" customClass="LSTAddToDoItemViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="v0h-GJ-Vow"/>
                         <viewControllerLayoutGuide type="bottom" id="ecJ-Tg-Xjg"/>
@@ -284,9 +284,21 @@
                             <constraint firstItem="dQx-Kp-FZX" firstAttribute="leading" secondItem="HPo-Rs-afs" secondAttribute="leading" constant="20" id="efU-VB-bpD"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Add To-Do Item" id="61T-DP-pfY"/>
+                    <navigationItem key="navigationItem" title="Add To-Do Item" id="61T-DP-pfY">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Ngn-AP-h43">
+                            <connections>
+                                <segue destination="QGD-cN-uE0" kind="unwind" unwindAction="unwindToList:" id="9iv-2x-8yV"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="zw7-B5-nVB">
+                            <connections>
+                                <segue destination="QGD-cN-uE0" kind="unwind" unwindAction="unwindToList:" id="cOk-i5-GIO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="smj-Q7-Rm5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="QGD-cN-uE0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1399" y="-366"/>
         </scene>

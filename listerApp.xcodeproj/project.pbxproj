@@ -20,6 +20,10 @@
 		8D5A550818E2032F00D0F3FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5A550618E2032F00D0F3FF /* InfoPlist.strings */; };
 		8D5A550A18E2032F00D0F3FF /* listerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A550918E2032F00D0F3FF /* listerAppTests.m */; };
 		8D5A551418E226F900D0F3FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5A551318E226F900D0F3FF /* Main.storyboard */; };
+		8DAEAED018E338D600354BAC /* LSTAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAEAECE18E338D600354BAC /* LSTAddToDoItemViewController.m */; };
+		8DAEAED118E338D600354BAC /* LSTAddToDoItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DAEAECF18E338D600354BAC /* LSTAddToDoItemViewController.xib */; };
+		8DAEAEDA18E33F9100354BAC /* LSTToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAEAED818E33F9100354BAC /* LSTToDoListTableViewController.m */; };
+		8DAEAEDB18E33F9100354BAC /* LSTToDoListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DAEAED918E33F9100354BAC /* LSTToDoListTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,12 @@
 		8D5A550718E2032F00D0F3FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D5A550918E2032F00D0F3FF /* listerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = listerAppTests.m; sourceTree = "<group>"; };
 		8D5A551318E226F900D0F3FF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8DAEAECD18E338D600354BAC /* LSTAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTAddToDoItemViewController.h; sourceTree = "<group>"; };
+		8DAEAECE18E338D600354BAC /* LSTAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTAddToDoItemViewController.m; sourceTree = "<group>"; };
+		8DAEAECF18E338D600354BAC /* LSTAddToDoItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSTAddToDoItemViewController.xib; sourceTree = "<group>"; };
+		8DAEAED718E33F9100354BAC /* LSTToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTToDoListTableViewController.h; sourceTree = "<group>"; };
+		8DAEAED818E33F9100354BAC /* LSTToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTToDoListTableViewController.m; sourceTree = "<group>"; };
+		8DAEAED918E33F9100354BAC /* LSTToDoListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSTToDoListTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +134,12 @@
 				8D5A54ED18E2032F00D0F3FF /* InfoPlist.strings */,
 				8D5A54F018E2032F00D0F3FF /* main.m */,
 				8D5A551318E226F900D0F3FF /* Main.storyboard */,
+				8DAEAED718E33F9100354BAC /* LSTToDoListTableViewController.h */,
+				8DAEAED818E33F9100354BAC /* LSTToDoListTableViewController.m */,
+				8DAEAED918E33F9100354BAC /* LSTToDoListTableViewController.xib */,
+				8DAEAECD18E338D600354BAC /* LSTAddToDoItemViewController.h */,
+				8DAEAECE18E338D600354BAC /* LSTAddToDoItemViewController.m */,
+				8DAEAECF18E338D600354BAC /* LSTAddToDoItemViewController.xib */,
 				8D5A54F218E2032F00D0F3FF /* listerApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -225,6 +241,8 @@
 			files = (
 				8D5A551418E226F900D0F3FF /* Main.storyboard in Resources */,
 				8D5A54EF18E2032F00D0F3FF /* InfoPlist.strings in Resources */,
+				8DAEAEDB18E33F9100354BAC /* LSTToDoListTableViewController.xib in Resources */,
+				8DAEAED118E338D600354BAC /* LSTAddToDoItemViewController.xib in Resources */,
 				8D5A54F718E2032F00D0F3FF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +264,8 @@
 			files = (
 				8D5A54F518E2032F00D0F3FF /* LSTAppDelegate.m in Sources */,
 				8D5A54F118E2032F00D0F3FF /* main.m in Sources */,
+				8DAEAEDA18E33F9100354BAC /* LSTToDoListTableViewController.m in Sources */,
+				8DAEAED018E338D600354BAC /* LSTAddToDoItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +462,7 @@
 				8D5A550F18E2032F00D0F3FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D5A551018E2032F00D0F3FF /* Build configuration list for PBXNativeTarget "listerAppTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +471,7 @@
 				8D5A551218E2032F00D0F3FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
