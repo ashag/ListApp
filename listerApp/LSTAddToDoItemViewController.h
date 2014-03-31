@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LSTToDoItem.h"
 
 @interface LSTAddToDoItemViewController : UIViewController
+
+@property LSTToDoItem *toDoItem;
 
 @end
